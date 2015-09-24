@@ -16,10 +16,6 @@ popart-img-center {
   box-shadow: 0px 0px 10px black !important;
   margin: auto;
 }
-background-image {
-  background-repeat: repeat;
-  background-color: red;
-}
 img {
   margin: auto;
 }
