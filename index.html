@@ -17,19 +17,52 @@
               <li class="active">
                 <a href="#">Home</a>
               </li>
-              <li class="active">
+              <li class="">
                 <a href="#project">Project</a>
               </li>
-              <li class="active">
+              <li>
+                <a href="#news">News<br></a>
+              </li>
+              <li class="">
                 <a href="#product">Product</a>
               </li>
-              <li class="active">
-                <a href="#opensource">Open Source</a>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Open Source &nbsp;&nbsp;<i class="fa fa-caret-down"></i></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li>
+                    <a href="#opensource">Open Source</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                    <a href="#openmvg">OpenMVG</a>
+                  </li>
+                  <li>
+                    <a href="#mayamvg">MayaMVG</a>
+                  </li>
+                  <li>
+                    <a href="#cctag">CCTag</a>
+                  </li>
+                  <li>
+                    <a href="#popsift">PopSIFT</a>
+                  </li>
+                </ul>
               </li>
-              <li class="active">
-                <a href="#opendatasets">Open Datasets</a>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Open Datasets &nbsp;&nbsp;<i class="fa fa-caret-down"></i></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li>
+                    <a href="#opendatasets">Open Datasets</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                    <a href="#levalloistownhall">Levallois Town Hall</a>
+                  </li>
+                  <li>
+                    <a href="#greenscreenstudio">Green Screen Studio</a>
+                  </li>
+                </ul>
               </li>
-              <li class="active">
+              <li class="">
                 <a href="#partners">Partners</a>
               </li>
             </ul>
@@ -51,24 +84,7 @@
       </div>
     </div>
     <div class="section">
-      <div class="background-image" style="background : url('images/bg-black-01.jpg') repeat"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <h1 class="text-center text-info" id="product">News</h1>
-            <ul class="lead text-left text-muted">
-              <li>14. April 2016 - We will present the POPART project in the Band Pro&nbsp;Booth
-                #C10408 at NAB 2016, Las Vegas. Come visit us if you are there.</li>
-              <li>18. December 2015 -
-                <a href="http://www.capdigital.com/retour-sur-le-projet-popart-chez-cap-digital-par-mikros-image/">Press Release</a>. POPART technology demonstrated at Cap Digital, Paris.</li>
-            </ul>
-            <img src="images/nablogo.jpg" class="img-responsive" style="width: 20em;">
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="section">
-      <div class="background-image" style="background : url('images/bg-white-01.jpg') repeat"></div>
+      <div class="background-image" style="background-image : url('images/bg-black-01.jpg')"></div>
       <div class="container">
         <div class="row">
           <div class="col-md-4">
@@ -95,6 +111,23 @@
               <br>POPART proposes an original approach to combine quick and easy setup with
               a robust and precise camera tracking. Finally, it allows to optimize everything
               in full quality based on the RAW data collected during the shooting.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="background-image" style="background-image : url('images/bg-white-01.jpg')"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h1 class="text-center text-info" id="news">News</h1>
+            <ul class="lead text-left text-muted">
+              <li>14. April 2016 - We will present the POPART project in the Band Pro&nbsp;Booth
+                #C10408 at NAB 2016, Las Vegas. Come visit us if you are there.</li>
+              <li>18. December 2015 -
+                <a href="http://www.capdigital.com/retour-sur-le-projet-popart-chez-cap-digital-par-mikros-image/">Press Release</a>. POPART technology demonstrated at Cap Digital, Paris.</li>
+            </ul>
+            <img src="images/nablogo.jpg" class="img-responsive" style="width: 20em;">
           </div>
         </div>
       </div>
@@ -205,7 +238,7 @@
           <div class="col-md-6">
             <h1></h1>
             <h1 class="text-left text-primary"></h1>
-            <h3 class="text-left text-primary" style="color: rgb(0, 0, 0);">
+            <h3 class="text-left text-primary" style="color: rgb(0, 0, 0);" id="openmvg">
               <a href="https://github.com/openMVG/openMVG/">
               <span class="fa fa-2x fa-github">&nbsp;</span>
               <span style="font-size: 36px; line-height: 1.1; text-align: left;">OpenMVG</span>
@@ -226,7 +259,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <h1 class="text-primary">MayaMVG</h1>
+            <h1 class="text-primary" id="mayamvg">MayaMVG</h1>
             <h3 class="text-muted">
               <span style="line-height: 1.1;">Photomodeling plugin -&nbsp;</span>Autodesk © Maya</h3>
             <p class="text-muted">MayaMVG allows graphic artists to do photomodeling on top of a 3D reconstruction
@@ -248,7 +281,7 @@
           </div>
           <div class="col-md-6">
             <h1></h1>
-            <h1 class="text-left text-primary">CCTag</h1>
+            <h1 class="text-left text-primary" id="cctag">CCTag</h1>
             <h3 class="text-muted">Concentric Circles Tag</h3>
             <p class="text-muted">
               <span style="text-align: justify;">This library allows you to detect and identify CCTag markers. This new
@@ -265,7 +298,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <h1 class="text-primary">PopSIFT</h1>
+            <h1 class="text-primary" id="popsift">PopSIFT</h1>
             <h3 class="text-muted">Scale-Invariant Feature Transform (SIFT)</h3>
             <p class="text-muted">This library provides a GPU implementation of SIFT.
               <br>25 fps on HD images on recent graphic cards.</p>
@@ -303,7 +336,7 @@
             <img src="images/mairie_levallois_9.png" class="img-responsive">
           </div>
           <div class="col-md-6">
-            <h3 class="text-info text-left">Levallois town hall</h3>
+            <h3 class="text-info text-left" id="levalloistownhall">Levallois Town Hall</h3>
             <p class="text-justify">
               <span style="color: rgb(102, 102, 102); font-family: Calibri, sans-serif; font-size: 16px; line-height: 25.6000003814697px; text-align: center;">This dataset consists of 596 rendered images along with a 3D ground truth.
                 It allows to run 3D reconstruction solutions on these 596 images to measure
@@ -328,7 +361,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <h3 class="text-info text-left">Green screen studio</h3>
+            <h3 class="text-info text-left" id="greenscreenstudio">Green Screen Studio</h3>
             <p class="text-justify">
               <span style="color: rgb(102, 102, 102); font-family: Calibri, sans-serif; font-size: 16px; line-height: 25.6000003814697px; text-align: center;">This dataset is an example of an everyday production with professional
                 cameras and green screen studio with artificial lighting environment. The
