@@ -1,4 +1,4 @@
 Website for POPART Project
 
-http://popartproject.eu
+https://alicevision.org/popart
 
